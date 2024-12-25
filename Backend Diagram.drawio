@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="4213" dy="1427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3138" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -231,6 +231,42 @@
         </mxCell>
         <mxCell id="ILHmAHJswd_FLpNGtU3H-1791" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;容器网络虚拟化&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry x="1152" y="930" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1793" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;内核是通过什么手段来识别可用内存的硬件范围的？&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="77.25" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1794" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#660000&quot;&gt;内核管理物理内存都用了那些技术手段？&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="147.25" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1795" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;为什么 free -m 命令输出的总内存比 dmidecode 中输出的要少？少了的那些内存去哪里了？&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="215.5" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1796" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;内核是怎么知道某个内存地址范围属于哪个 NUMA 节点的呢？&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="282.75" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1797" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1754" target="ILHmAHJswd_FLpNGtU3H-1793">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-354" y="216.5" as="sourcePoint" />
+            <mxPoint x="-520" y="215.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1798" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1754" target="ILHmAHJswd_FLpNGtU3H-1795">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-394" y="215.5" as="sourcePoint" />
+            <mxPoint x="-750" y="112.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1799" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1754" target="ILHmAHJswd_FLpNGtU3H-1794">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-262" y="230" as="sourcePoint" />
+            <mxPoint x="-618" y="127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1800" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1754" target="ILHmAHJswd_FLpNGtU3H-1796">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="450.5" as="sourcePoint" />
+            <mxPoint x="-636" y="347.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
