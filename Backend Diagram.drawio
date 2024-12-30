@@ -268,7 +268,7 @@
             <mxPoint x="-636" y="347.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2nbvDEHNfWG4uodzMMP5-1786" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;申请得到的内存是物理内存吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="2nbvDEHNfWG4uodzMMP5-1786" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;申请得到的内存是物理内存吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c600;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-1548" y="50.5" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2nbvDEHNfWG4uodzMMP5-1787" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#660000&quot;&gt;&lt;b&gt;对虚拟内存的申请如何转化为对物理内存的访问？&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
