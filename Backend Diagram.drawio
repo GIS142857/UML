@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="4431" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="6523" dy="2790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,17 +232,17 @@
         <mxCell id="ILHmAHJswd_FLpNGtU3H-1791" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;容器网络虚拟化&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1152" y="930" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ILHmAHJswd_FLpNGtU3H-1793" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;内核是通过什么手段来识别可用内存的硬件范围的？&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1548" y="-230" width="480" height="60" as="geometry" />
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1793" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;1.内核是通过什么手段来识别可用内存的硬件范围的？&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1938" y="-647.5" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ILHmAHJswd_FLpNGtU3H-1794" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#660000&quot;&gt;&lt;b&gt;内核管理物理内存都用了那些技术手段？&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1548" y="-160" width="480" height="60" as="geometry" />
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1794" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#660000&quot;&gt;&lt;b&gt;2.内核管理物理内存都用了那些技术手段？&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1938" y="-577.5" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ILHmAHJswd_FLpNGtU3H-1795" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;为什么 free -m 命令输出的总内存比 dmidecode 中输出的要少？少了的那些内存去哪里了？&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1548" y="-91.75" width="480" height="60" as="geometry" />
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1795" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3.为什么 free -m 命令输出的总内存比 dmidecode 中输出的要少？少了的那些内存去哪里了？&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1938" y="-509.25" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ILHmAHJswd_FLpNGtU3H-1796" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;内核是怎么知道某个内存地址范围属于哪个 NUMA 节点的呢？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1548" y="-24.5" width="480" height="60" as="geometry" />
+        <mxCell id="ILHmAHJswd_FLpNGtU3H-1796" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4.内核是怎么知道某个内存地址范围属于哪个 NUMA 节点的呢？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1938" y="-442" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ILHmAHJswd_FLpNGtU3H-1797" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1754" target="ILHmAHJswd_FLpNGtU3H-1793" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -268,17 +268,17 @@
             <mxPoint x="-636" y="347.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2nbvDEHNfWG4uodzMMP5-1786" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;申请得到的内存是物理内存吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1548" y="50.5" width="480" height="60" as="geometry" />
+        <mxCell id="2nbvDEHNfWG4uodzMMP5-1786" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;1.申请得到的内存是物理内存吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1938" y="-367" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2nbvDEHNfWG4uodzMMP5-1787" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#660000&quot;&gt;&lt;b&gt;对虚拟内存的申请如何转化为对物理内存的访问？&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1548" y="121" width="480" height="60" as="geometry" />
+        <mxCell id="2nbvDEHNfWG4uodzMMP5-1787" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#660000&quot;&gt;&lt;b&gt;2.对虚拟内存的申请如何转化为对物理内存的访问？&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1938" y="-296.5" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2nbvDEHNfWG4uodzMMP5-1788" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;top 命令输出进程的内存指标中 VIRT 和 RES 分别表示什么含义？&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1548" y="190.5" width="480" height="60" as="geometry" />
+        <mxCell id="2nbvDEHNfWG4uodzMMP5-1788" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3.top 命令输出进程的内存指标中 VIRT 和 RES 分别表示什么含义？&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1938" y="-227" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2nbvDEHNfWG4uodzMMP5-1789" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;栈的大小有限制吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1548" y="256" width="480" height="60" as="geometry" />
+        <mxCell id="2nbvDEHNfWG4uodzMMP5-1789" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4.栈的大小有限制吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1938" y="-161.5" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2nbvDEHNfWG4uodzMMP5-1790" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ1f1XoCF6sj-RpURzjW-1779" target="2nbvDEHNfWG4uodzMMP5-1786" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -304,8 +304,8 @@
             <mxPoint x="-634" y="641.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2nbvDEHNfWG4uodzMMP5-1794" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;当栈发生溢出后应用程序会发生什么？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1550" y="318.5" width="480" height="60" as="geometry" />
+        <mxCell id="2nbvDEHNfWG4uodzMMP5-1794" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;5.当栈发生溢出后应用程序会发生什么？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1940" y="-99" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2nbvDEHNfWG4uodzMMP5-1795" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ZJ1f1XoCF6sj-RpURzjW-1779" target="2nbvDEHNfWG4uodzMMP5-1794" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -313,8 +313,8 @@
             <mxPoint x="-636" y="704" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2nbvDEHNfWG4uodzMMP5-1796" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;malloc 的工作原理是什么？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1550" y="443.5" width="480" height="60" as="geometry" />
+        <mxCell id="2nbvDEHNfWG4uodzMMP5-1796" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;7.malloc 的工作原理是什么？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1940" y="26" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2nbvDEHNfWG4uodzMMP5-1797" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ1f1XoCF6sj-RpURzjW-1779" target="2nbvDEHNfWG4uodzMMP5-1796" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -322,13 +322,112 @@
             <mxPoint x="-636" y="829" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2nbvDEHNfWG4uodzMMP5-1798" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;进程栈和线程栈是相同的东西吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="-1550" y="381" width="480" height="60" as="geometry" />
+        <mxCell id="2nbvDEHNfWG4uodzMMP5-1798" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;6.进程栈和线程栈是相同的东西吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#00994D;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="-1940" y="-36.5" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2nbvDEHNfWG4uodzMMP5-1799" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ1f1XoCF6sj-RpURzjW-1779" target="2nbvDEHNfWG4uodzMMP5-1798" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-284" y="425" as="sourcePoint" />
             <mxPoint x="-636" y="766.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1779" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;1.调度器的发展历程及其原理？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#CC99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1938" y="100.25" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1780" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#660000&quot;&gt;&lt;b&gt;2.调度器是如何定义的，运行队列是什么样的？&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#CC99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1938" y="170.75" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1781" value="&lt;font color=&quot;#660000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3.新进程和老进程是如何确定自己该加入哪个运行队列的？&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#CC99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1938" y="240.25" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1782" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4.调度器是如何触发选择下一个待运行进程的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#CC99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1938" y="305.75" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1783" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1779" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="767.25" as="sourcePoint" />
+            <mxPoint x="-518" y="976.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1784" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1781" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="767.25" as="sourcePoint" />
+            <mxPoint x="-748" y="873.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1785" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1780" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="767.25" as="sourcePoint" />
+            <mxPoint x="-616" y="888.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1786" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1782" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="767.25" as="sourcePoint" />
+            <mxPoint x="-634" y="1108.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1787" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;1.进程不主动释放 CPU 的话，每次调度最少能运行多久？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#B266FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="368.25" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1788" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1787" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="767.25" as="sourcePoint" />
+            <mxPoint x="-636" y="1171.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1789" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3.进程的 nice 值的含义是什么？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#B266FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="493.25" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1790" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1789" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330" y="480" as="sourcePoint" />
+            <mxPoint x="-636" y="1296.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1791" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;2.现在的进程调度还是按时间片来执行的吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#B266FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="430.75" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1792" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1791" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="767.25" as="sourcePoint" />
+            <mxPoint x="-636" y="1233.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1793" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4.在用户进程中，高优先级是否能抢占低优先级的 CPU？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#B266FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1938" y="561" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1794" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1793" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="648.25" as="sourcePoint" />
+            <mxPoint x="-634" y="1364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1795" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;5.业界流行的在离线混部有没有副作用？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#B266FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="623.5" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1796" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1795" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="648.25" as="sourcePoint" />
+            <mxPoint x="-636" y="1426.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1797" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;7.taskset 命令是如何让一个进程钉在某个核上的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#B266FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="748.5" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1798" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1797" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="648.25" as="sourcePoint" />
+            <mxPoint x="-636" y="1551.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1799" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;6.为什么进程会在 CPU 的各个核心之间转移？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#B266FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="686" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhxzf7kNMPE75-qJn_m3-1800" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhxzf7kNMPE75-qJn_m3-1799" source="ZJ1f1XoCF6sj-RpURzjW-1782">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-282" y="648.25" as="sourcePoint" />
+            <mxPoint x="-636" y="1489" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
