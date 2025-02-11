@@ -149,6 +149,18 @@
         <mxCell id="WMMUxBecpCihCAzd6EAW-24" value="Leader" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FF3200,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="670" y="510" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="WMMUxBecpCihCAzd6EAW-25" value="Worker" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFC4B2,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="1190" y="510" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WMMUxBecpCihCAzd6EAW-26" value="Worker" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFC4B2,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="1430" y="925" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WMMUxBecpCihCAzd6EAW-27" value="Worker" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFC4B2,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="940" y="1205" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WMMUxBecpCihCAzd6EAW-28" value="Worker" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFC4B2,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="470" y="930" width="70" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
