@@ -1298,6 +1298,24 @@
             <mxPoint x="27" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-77" value="&lt;div style=&quot;background-color: rgb(39, 40, 34); color: rgb(248, 248, 242);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;func &lt;/span&gt;(rf &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;Raft&lt;/span&gt;) &lt;span style=&quot;color: rgb(166, 226, 46);&quot;&gt;matchLog&lt;/span&gt;(term, index &lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;int&lt;/span&gt;) &lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;bool &lt;/span&gt;{}&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3360" y="4850" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-78" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sPZ4lGqlMmYkGnnUEj1P-74" target="sPZ4lGqlMmYkGnnUEj1P-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3280" y="4815" as="sourcePoint" />
+            <mxPoint x="3350" y="4890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3240" y="4865" />
+              <mxPoint x="3260" y="4885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-79" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;限制条件：Leader 只能提交当前任期产生的日志，&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;防止发生日志回退问题&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sPZ4lGqlMmYkGnnUEj1P-78">
+          <mxGeometry x="-0.3093" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
