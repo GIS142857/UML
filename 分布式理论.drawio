@@ -1133,6 +1133,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sPZ4lGqlMmYkGnnUEj1P-5" target="sPZ4lGqlMmYkGnnUEj1P-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2280" y="4630" as="sourcePoint" />
+            <mxPoint x="2640" y="4800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="4630" />
+              <mxPoint x="2570" y="4630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-42" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;当 replicator 收到复制一轮的信号时调用&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sPZ4lGqlMmYkGnnUEj1P-41">
+          <mxGeometry x="0.0146" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
