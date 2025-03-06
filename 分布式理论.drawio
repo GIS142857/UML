@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
-    <mxGraphModel dx="5285" dy="2813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2960" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1391,6 +1391,15 @@
           <mxGeometry x="0.0146" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-96" value="&lt;div style=&quot;background-color: rgb(39, 40, 34); color: rgb(248, 248, 242);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;func &lt;/span&gt;(rf &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;Raft&lt;/span&gt;) &lt;span style=&quot;color: rgb(166, 226, 46);&quot;&gt;RequestVote&lt;/span&gt;(request &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;RequestVoteRequest&lt;/span&gt;, response &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;RequestVoteResponse&lt;/span&gt;) {}&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="4450" width="985" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-97" value="&lt;div style=&quot;background-color: rgb(39, 40, 34); color: rgb(248, 248, 242);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;func &lt;/span&gt;(rf &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;Raft&lt;/span&gt;) &lt;span style=&quot;color: rgb(166, 226, 46);&quot;&gt;AppendEntries&lt;/span&gt;(request &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;AppendEntriesRequest&lt;/span&gt;, response &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;AppendEntriesResponse&lt;/span&gt;) {}&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="4530" width="1045" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-98" value="&lt;div style=&quot;background-color: rgb(39, 40, 34); color: rgb(248, 248, 242);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;func &lt;/span&gt;(rf &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;Raft&lt;/span&gt;) &lt;span style=&quot;color: rgb(166, 226, 46);&quot;&gt;InstallSnapshot&lt;/span&gt;(request &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;InstallSnapshotRequest&lt;/span&gt;, response &lt;span style=&quot;color: rgb(249, 38, 114);&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: rgb(118, 154, 165);&quot;&gt;InstallSnapshotResponse&lt;/span&gt;) {}&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="4620" width="1110" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
