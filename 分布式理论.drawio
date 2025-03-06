@@ -4,6 +4,24 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-48" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#B266FF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="847.38" y="4285" width="367.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#B266FF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="870" y="4905" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#B266FF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="870" y="4965" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-47" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#B266FF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="870" y="5025" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-44" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#B266FF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="870" y="4840" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sPZ4lGqlMmYkGnnUEj1P-43" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#B266FF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="842.75" y="4570" width="367.25" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="1ea317790d2ca983-14" value="Strategy(策略)" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="1ea317790d2ca983-1" target="1ea317790d2ca983-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
