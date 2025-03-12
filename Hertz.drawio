@@ -45,6 +45,35 @@
             <mxPoint x="6" y="-49" as="offset" />
           </mxGeometry>
         </mxCell>
+        <UserObject label="&lt;div style=&quot;background-color:#272822;color:#f8f8f2&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;func &lt;/span&gt;(group &lt;span style=&quot;color:#f92672;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RouterGroup&lt;/span&gt;) &lt;span style=&quot;color:#a6e22e;&quot;&gt;Use&lt;/span&gt;(middleware ...app.&lt;span style=&quot;color:#769aa5;&quot;&gt;HandlerFunc&lt;/span&gt;) &lt;span style=&quot;color:#769aa5;&quot;&gt;IRoutes &lt;/span&gt;{&lt;br&gt;    group.&lt;span style=&quot;font-style:italic;&quot;&gt;Handlers &lt;/span&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;color:#66d9ef;&quot;&gt;append&lt;/span&gt;(group.&lt;span style=&quot;font-style:italic;&quot;&gt;Handlers&lt;/span&gt;, middleware...)&lt;br&gt;    &lt;span style=&quot;color:#f92672;&quot;&gt;return &lt;/span&gt;group.&lt;span style=&quot;color:#66d9ef;&quot;&gt;returnObj&lt;/span&gt;()&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" link="&lt;div style=&quot;background-color:#272822;color:#f8f8f2&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;func &lt;/span&gt;(group &lt;span style=&quot;color:#f92672;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RouterGroup&lt;/span&gt;) &lt;span style=&quot;color:#a6e22e;&quot;&gt;Use&lt;/span&gt;(middleware ...app.&lt;span style=&quot;color:#769aa5;&quot;&gt;HandlerFunc&lt;/span&gt;) &lt;span style=&quot;color:#769aa5;&quot;&gt;IRoutes &lt;/span&gt;{&lt;br&gt;    group.&lt;span style=&quot;font-style:italic;&quot;&gt;Handlers &lt;/span&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;color:#66d9ef;&quot;&gt;append&lt;/span&gt;(group.&lt;span style=&quot;font-style:italic;&quot;&gt;Handlers&lt;/span&gt;, middleware...)&lt;br&gt;    &lt;span style=&quot;color:#f92672;&quot;&gt;return &lt;/span&gt;group.&lt;span style=&quot;color:#66d9ef;&quot;&gt;returnObj&lt;/span&gt;()&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" id="bZFTZhcOLTCebWkoZDsH-11">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1470" y="245" width="760" height="115" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="bZFTZhcOLTCebWkoZDsH-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.001;exitY=0.341;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bZFTZhcOLTCebWkoZDsH-8" target="bZFTZhcOLTCebWkoZDsH-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="270" as="sourcePoint" />
+            <mxPoint x="1500" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZFTZhcOLTCebWkoZDsH-13" value="&lt;div style=&quot;background-color:#272822;color:#f8f8f2&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;type &lt;/span&gt;RouterGroup &lt;span style=&quot;color:#f92672;&quot;&gt;struct &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;font-style:italic;&quot;&gt;Handlers &lt;/span&gt;app.&lt;span style=&quot;color:#769aa5;&quot;&gt;HandlersChain&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;    &lt;/span&gt;basePath &lt;span style=&quot;color:#769aa5;&quot;&gt;string&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;    &lt;/span&gt;engine   &lt;span style=&quot;color:#f92672;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;Engine&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;    &lt;/span&gt;root     &lt;span style=&quot;color:#769aa5;&quot;&gt;bool&lt;br&gt;&lt;/span&gt;}&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="50" width="330" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bZFTZhcOLTCebWkoZDsH-14" value="&lt;div style=&quot;background-color:#272822;color:#f8f8f2&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;type &lt;/span&gt;HandlerFunc &lt;span style=&quot;color:#f92672;&quot;&gt;func&lt;/span&gt;(c context.&lt;span style=&quot;color:#769aa5;&quot;&gt;Context&lt;/span&gt;, ctx &lt;span style=&quot;color:#f92672;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RequestContext&lt;/span&gt;)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#75715e;&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color:#a1a1a1;&quot;&gt;HandlersChain&lt;/span&gt;&lt;span style=&quot;color:#75715e;&quot;&gt; defines a &lt;/span&gt;&lt;span style=&quot;color:#a1a1a1;&quot;&gt;HandlerFunc&lt;/span&gt;&lt;span style=&quot;color:#75715e;&quot;&gt; array.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;type &lt;/span&gt;HandlersChain []&lt;span style=&quot;color:#769aa5;&quot;&gt;HandlerFunc&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="70" width="670" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bZFTZhcOLTCebWkoZDsH-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1.003;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bZFTZhcOLTCebWkoZDsH-13" target="bZFTZhcOLTCebWkoZDsH-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1760" y="110" as="sourcePoint" />
+            <mxPoint x="1770" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZFTZhcOLTCebWkoZDsH-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.421;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bZFTZhcOLTCebWkoZDsH-11" target="bZFTZhcOLTCebWkoZDsH-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1930" y="-70" as="sourcePoint" />
+            <mxPoint x="1999" y="3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
