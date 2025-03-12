@@ -85,6 +85,25 @@
             <mxPoint x="290" y="-470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <UserObject label="&lt;div style=&quot;background-color:#272822;color:#f8f8f2&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;func &lt;/span&gt;(group &lt;span style=&quot;color:#f92672;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RouterGroup&lt;/span&gt;) &lt;span style=&quot;color:#a6e22e;&quot;&gt;Group&lt;/span&gt;(relativePath &lt;span style=&quot;color:#769aa5;&quot;&gt;string&lt;/span&gt;, handlers ...app.&lt;span style=&quot;color:#769aa5;&quot;&gt;HandlerFunc&lt;/span&gt;) &lt;span style=&quot;color:#f92672;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RouterGroup &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color:#f92672;&quot;&gt;return &amp;amp;&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RouterGroup&lt;/span&gt;{&lt;br&gt;       &lt;span style=&quot;font-style:italic;&quot;&gt;Handlers&lt;/span&gt;: group.&lt;span style=&quot;color:#66d9ef;&quot;&gt;combineHandlers&lt;/span&gt;(handlers),&lt;br&gt;       basePath: group.&lt;span style=&quot;color:#66d9ef;&quot;&gt;calculateAbsolutePath&lt;/span&gt;(relativePath),&lt;br&gt;       engine:   group.engine,&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" link="&lt;div style=&quot;background-color:#272822;color:#f8f8f2&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;func &lt;/span&gt;(group &lt;span style=&quot;color:#f92672;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RouterGroup&lt;/span&gt;) &lt;span style=&quot;color:#a6e22e;&quot;&gt;Group&lt;/span&gt;(relativePath &lt;span style=&quot;color:#769aa5;&quot;&gt;string&lt;/span&gt;, handlers ...app.&lt;span style=&quot;color:#769aa5;&quot;&gt;HandlerFunc&lt;/span&gt;) &lt;span style=&quot;color:#f92672;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RouterGroup &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color:#f92672;&quot;&gt;return &amp;amp;&lt;/span&gt;&lt;span style=&quot;color:#769aa5;&quot;&gt;RouterGroup&lt;/span&gt;{&lt;br&gt;       &lt;span style=&quot;font-style:italic;&quot;&gt;Handlers&lt;/span&gt;: group.&lt;span style=&quot;color:#66d9ef;&quot;&gt;combineHandlers&lt;/span&gt;(handlers),&lt;br&gt;       basePath: group.&lt;span style=&quot;color:#66d9ef;&quot;&gt;calculateAbsolutePath&lt;/span&gt;(relativePath),&lt;br&gt;       engine:   group.engine,&lt;br&gt;    }&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" id="bZFTZhcOLTCebWkoZDsH-19">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="690" y="500" width="1050" height="180" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="bZFTZhcOLTCebWkoZDsH-20" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.994;exitY=0.427;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="bZFTZhcOLTCebWkoZDsH-1" target="bZFTZhcOLTCebWkoZDsH-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="197" y="461" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZFTZhcOLTCebWkoZDsH-21" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;创建路由组&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bZFTZhcOLTCebWkoZDsH-20">
+          <mxGeometry x="-0.157" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
