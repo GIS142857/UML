@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="7121" dy="3897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4913" dy="2862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -606,7 +606,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1779" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;1.负载是怎么计算出来的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1779" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;1.RingBuffer 到底是什么，RingBuffer 为什么会丢包？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#6666FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-1318" y="1232" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1780" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1763" target="UaEBQyg2c6bo5OfO8Uoy-1779" edge="1">
@@ -615,7 +615,7 @@
             <mxPoint x="-14" y="2035" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1781" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3.内核是如何给应用层暴露负载数据的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1781" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3.Linux 里的 ksoftirqd 内核线程是干什么的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#6666FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-1318" y="1357" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1782" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1763" target="UaEBQyg2c6bo5OfO8Uoy-1781" edge="1">
@@ -624,7 +624,7 @@
             <mxPoint x="-14" y="2160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1783" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;2.负载高低和 CPU 消耗正相关吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1783" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;2.网络相关的硬中断、软中断都是什么？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#6666FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-1318" y="1294.5" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1784" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1763" target="UaEBQyg2c6bo5OfO8Uoy-1783" edge="1">
@@ -633,7 +633,7 @@
             <mxPoint x="-14" y="2097.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1785" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4.top 输出的利用率信息是如何计算出来的，它精确吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1785" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4.为什么网卡开启多队列能够提升网络性能？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#6666FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-1316" y="1424.75" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1786" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1763" target="UaEBQyg2c6bo5OfO8Uoy-1785" edge="1">
@@ -642,7 +642,7 @@
             <mxPoint x="-12" y="2227.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1787" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;5.top 输出中 ni 这一列是 nice 值，它输出的是 CPU 在处理什么时候的开销？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1787" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;5.top 输出中 ni 这一列是 nice 值，它输出的是 CPU 在处理什么时候的开销？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#6666FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-1318" y="1487.25" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1788" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1763" target="UaEBQyg2c6bo5OfO8Uoy-1787" edge="1">
@@ -651,7 +651,7 @@
             <mxPoint x="-14" y="2290.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1789" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;7.在性能观测中为什么 CPI 指标非常重要？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1789" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;7.在性能观测中为什么 CPI 指标非常重要？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#6666FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-1318" y="1612.25" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1790" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1763" target="UaEBQyg2c6bo5OfO8Uoy-1789" edge="1">
@@ -660,7 +660,7 @@
             <mxPoint x="-14" y="2415.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1791" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;6.top 输出中 wa 代表的是 iowait，那么这段时间 CPU 到底是忙碌还是空闲的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1791" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;6.top 输出中 wa 代表的是 iowait，那么这段时间 CPU 到底是忙碌还是空闲的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#6666FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="-1318" y="1549.75" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UaEBQyg2c6bo5OfO8Uoy-1792" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1763" target="UaEBQyg2c6bo5OfO8Uoy-1791" edge="1">
@@ -1110,76 +1110,76 @@
             <mxPoint x="1681.5" y="1491.12" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1779" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;1.负载是怎么计算出来的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1779" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;1.负载是怎么计算出来的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1105" y="2515.13" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1780" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3.内核是如何给应用层暴露负载数据的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1780" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;3.内核是如何给应用层暴露负载数据的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1105" y="2640.13" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1781" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;2.负载高低和 CPU 消耗正相关吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1781" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;2.负载高低和 CPU 消耗正相关吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1105" y="2577.63" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1782" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4.top 输出的利用率信息是如何计算出来的，它精确吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1782" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4.top 输出的利用率信息是如何计算出来的，它精确吗？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1107" y="2707.88" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1783" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;5.top 输出中 ni 这一列是 nice 值，它输出的是 CPU 在处理什么时候的开销？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1783" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;5.top 输出中 ni 这一列是 nice 值，它输出的是 CPU 在处理什么时候的开销？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1105" y="2770.38" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1784" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;7.在性能观测中为什么 CPI 指标非常重要？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1784" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;7.在性能观测中为什么 CPI 指标非常重要？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1105" y="2895.38" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1785" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;6.top 输出中 wa 代表的是 iowait，那么这段时间 CPU 到底是忙碌还是空闲的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1785" value="&lt;font color=&quot;#660000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;6.top 输出中 wa 代表的是 iowait，那么这段时间 CPU 到底是忙碌还是空闲的？&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#FF99FF;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1105" y="2832.88" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1786" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="_2pgqdIMG9HHsBMP5qlB-1779" source="ILHmAHJswd_FLpNGtU3H-1783">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1786" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ILHmAHJswd_FLpNGtU3H-1783" target="_2pgqdIMG9HHsBMP5qlB-1779" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="1470" as="sourcePoint" />
             <mxPoint x="737.5" y="2904.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1787" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="_2pgqdIMG9HHsBMP5qlB-1780" source="ILHmAHJswd_FLpNGtU3H-1783">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1787" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ILHmAHJswd_FLpNGtU3H-1783" target="_2pgqdIMG9HHsBMP5qlB-1780" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="1470" as="sourcePoint" />
             <mxPoint x="737.5" y="3029.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1788" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_2pgqdIMG9HHsBMP5qlB-1781" source="ILHmAHJswd_FLpNGtU3H-1783">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1788" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ILHmAHJswd_FLpNGtU3H-1783" target="_2pgqdIMG9HHsBMP5qlB-1781" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="1470" as="sourcePoint" />
             <mxPoint x="737.5" y="2967.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1789" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="_2pgqdIMG9HHsBMP5qlB-1782" source="ILHmAHJswd_FLpNGtU3H-1783">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1789" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ILHmAHJswd_FLpNGtU3H-1783" target="_2pgqdIMG9HHsBMP5qlB-1782" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="1470" as="sourcePoint" />
             <mxPoint x="739.5" y="3097.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1790" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="_2pgqdIMG9HHsBMP5qlB-1783" source="ILHmAHJswd_FLpNGtU3H-1783">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1790" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ILHmAHJswd_FLpNGtU3H-1783" target="_2pgqdIMG9HHsBMP5qlB-1783" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="1470" as="sourcePoint" />
             <mxPoint x="737.5" y="3159.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1791" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="_2pgqdIMG9HHsBMP5qlB-1784" source="ILHmAHJswd_FLpNGtU3H-1783">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1791" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ILHmAHJswd_FLpNGtU3H-1783" target="_2pgqdIMG9HHsBMP5qlB-1784" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="1470" as="sourcePoint" />
             <mxPoint x="737.5" y="3284.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1792" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_2pgqdIMG9HHsBMP5qlB-1785" source="ILHmAHJswd_FLpNGtU3H-1783">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1792" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ILHmAHJswd_FLpNGtU3H-1783" target="_2pgqdIMG9HHsBMP5qlB-1785" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="1470" as="sourcePoint" />
             <mxPoint x="737.5" y="3222.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1793" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.xiaolincoding.com//mysql/other/1310bf5ed78e4c8186481c47719e0793.png;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1793" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.xiaolincoding.com//mysql/other/1310bf5ed78e4c8186481c47719e0793.png;" parent="1" vertex="1">
           <mxGeometry x="-400" y="2890" width="1472.17" height="2430" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1794" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.xiaolincoding.com//mysql/other/6b9bfd38d2684b3f9843ebabf8771212.png;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1794" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.xiaolincoding.com//mysql/other/6b9bfd38d2684b3f9843ebabf8771212.png;" parent="1" vertex="1">
           <mxGeometry x="-1850" y="3303.1" width="1414" height="1386.9" as="geometry" />
         </mxCell>
-        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1795" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.xiaolincoding.com/gh/xiaolincoder/ImageHost/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/IP/1.jpg;" vertex="1" parent="1">
+        <mxCell id="_2pgqdIMG9HHsBMP5qlB-1795" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.xiaolincoding.com/gh/xiaolincoder/ImageHost/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/IP/1.jpg;" parent="1" vertex="1">
           <mxGeometry x="1302" y="3330" width="1451.51" height="1360" as="geometry" />
         </mxCell>
       </root>
